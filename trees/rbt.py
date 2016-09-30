@@ -333,3 +333,6 @@ def main(size=100):
 
     for i in reversed(keys):
         rb_tree.delete(rb_tree.search(i))
+
+
+main(size=1000)
